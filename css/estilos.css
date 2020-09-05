@@ -127,13 +127,6 @@ hr{
   border-block-color: black;
   height: 1px;
 }
-#costado ,hidden-xs , hidden-sm , hidden-md{
-   width: 30%;
-       background:#D4C2B8;
-        float:right;
-        padding: 20px;
-        box-sizing: border-box;
-}
 
 @media only screen and (min-device-width: 0px) and (max-device-width: 720px) {div#costado {visibility:hidden;}}
 
@@ -149,7 +142,10 @@ footer{
   font-style: oblique;
   bottom: 0%;
   width: 100%;
-  position: absolute;
+  position: relative;
+  padding: 1em;
+  align-self: flex-end;
+  
   }
 
 #page-container {
@@ -166,4 +162,13 @@ footer{
   bottom: 0;
   width: 100%;
   height: 2.5rem;            /* Footer height */
+}
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: black;
+  text-align: center;
 }
