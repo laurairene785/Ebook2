@@ -122,8 +122,8 @@ hr{
   border-block-color: black;
   height: 1px;
 }
-#costado{
-  width: 30%;
+#costado ,hidden -xs{
+   width: 30%;
        background:#D4C2B8;
         float:right;
         padding: 20px;
