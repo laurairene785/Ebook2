@@ -122,7 +122,7 @@ hr{
   border-block-color: black;
   height: 1px;
 }
-#costado ,hidden -xs{
+#costado ,hidden -xs , hidden -sm , hidden -md{
    width: 30%;
        background:#D4C2B8;
         float:right;
