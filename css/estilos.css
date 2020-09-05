@@ -30,18 +30,18 @@ html {
 
 /* Ahora podemos cambiar solo la propiedad background-image */
 @media (min-width: 480px) {
-    body {
-        background-image: url("background-480w.png");
+    html {
+        background-image: url("6.jpg");
     }
 }
 @media (min-width: 768px) {
-    body {
-        background-image: url("background-768w.png");
+    html {
+        background-image: url("4.jpg");
     }
 }
 @media (min-width: 1200px) {
-    body {
-        background-image: url("background-1200w.png");
+    html {
+        background-image: url("4.jpg");
     }
 }
 
@@ -122,7 +122,7 @@ hr{
   border-block-color: black;
   height: 1px;
 }
-#costado ,hidden -xs , hidden -sm , hidden -md{
+#costado ,hidden-xs , hidden-sm , hidden-md{
    width: 30%;
        background:#D4C2B8;
         float:right;
