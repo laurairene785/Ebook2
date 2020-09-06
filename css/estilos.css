@@ -49,7 +49,7 @@ html {
         background-image: url("4.jpg");
     }
 }
-@media (min-width: 1600px){
+@media (min-width: 1900px){
   html{
     background-image: url("B.jpg");
   }
