@@ -172,3 +172,14 @@ footer{
   background-color: black;
   text-align: center;
 }
+#btn{
+  background-color:black;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 15%;
+
+}
+#nombre{
+  border-radius: 6%;
+
+}
