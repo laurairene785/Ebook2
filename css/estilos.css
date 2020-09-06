@@ -49,6 +49,11 @@ html {
         background-image: url("4.jpg");
     }
 }
+@media (min-width: 1600px){
+  html{
+    background-image: url("B.jpg");
+  }
+}
 
   
   [tabindex="-1"]:focus {
